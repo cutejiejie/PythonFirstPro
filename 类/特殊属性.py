@@ -18,5 +18,4 @@ print(x.__class__) #<class '__main__.C'>输出了对象所属的类
 print(C.__bases__) # C类的父类类型的元素
 print(C.__base__)
 print(C.__mro__)  #类的层次结构
-print(A.__subclasses__())
 print(A.__subclasses__()) #子类的列表
