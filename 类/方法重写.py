@@ -14,12 +14,12 @@ class Student(Person):
         print('学号:{0}'.format(self.stu_no))
 
 class Teacher(Person):
-    def __init__(self,name,age,teachofyear):
+    def __init__(self,name,age,TeachOfYear):
         super().__init__(name,age)
-        self.teachofyear=teachofyear
+        self.TeachOfYear=TeachOfYear
     def info(self):
         super().info()
-        print('教龄:{0}'.format(self.teachofyear))
+        print('教龄:{0}'.format(self.TeachOfYear))
 
 stu=Student('张三',20,'1001')
 teacher=Teacher('李四',34,10)
